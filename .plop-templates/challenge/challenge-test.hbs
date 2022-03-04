@@ -1,5 +1,5 @@
 import { {{fileName}} } from './{{fileName}}';
 
 it('{{firstTestCase}}', () => {
-  expect({{fileName}}).toBe({{firstTestResult}});
+  expect({{fileName}}({{{testArguments}}})).toBe({{{firstTestResult}}});
 });

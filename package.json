@@ -8,6 +8,6 @@
   },
   "scripts": {
     "test": "jest",
-    "generate:challenge": "plop -c plopfile.mjs"
+    "gen:challenge": "plop"
   }
 }
